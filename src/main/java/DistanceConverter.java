@@ -52,6 +52,12 @@ public class DistanceConverter
                     run = false;
                     break;
                 }
+
+                default:
+                {
+                    System.out.println("Invalid choice");
+                    break;
+                }
             }
 
         }
