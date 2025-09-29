@@ -28,10 +28,17 @@ public class DistanceConverter
                 {
                     System.out.println("\nEnter distance in miles: ");
                     double miles = sc.nextDouble();
-                    System.out.println("\nConversion Results:");
-                    System.out.println("Miles: " + miles);
-                    double kilometers = miles * 1.60935;
-                    System.out.println("Kilometers: " + kilometers);
+                    if (miles == 0)
+                    {
+                        System.out.println("Invalid input");
+                    }
+                    else
+                    {
+                        System.out.println("\nConversion Results:");
+                        System.out.println("Miles: " + miles);
+                        double kilometers = miles * 1.60935;
+                        System.out.println("Kilometers: " + kilometers);
+                    }
                     break;
                 }
 
@@ -39,10 +46,17 @@ public class DistanceConverter
                 {
                     System.out.println("\nEnter distance in kilometers: ");
                     double kilos = sc.nextDouble();
-                    System.out.println("\nConversion Results: ");
-                    System.out.print("Kilometers: " + kilos);
-                    double mil = kilos / 1.60935;
-                    System.out.println("Miles: " + mil);
+                    if (kilos == 0)
+                    {
+                        System.out.println("Invalid input");
+                    }
+                    else
+                    {
+                        System.out.println("\nConversion Results: ");
+                        System.out.println("Kilometers: " + kilos);
+                        double mil = kilos / 1.60935;
+                        System.out.println("Miles: " + mil);
+                    }
                     break;
                 }
 
