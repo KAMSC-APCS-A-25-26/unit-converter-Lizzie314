@@ -6,7 +6,7 @@ public class DistanceConverter
     {
         Scanner sc = new Scanner(System.in);
         boolean run = true;
-        while (run)
+        while (run)  
         {
             System.out.println("\nChoose conversion direction: ");
             System.out.println("1. Convert Miles to Kilometers");
