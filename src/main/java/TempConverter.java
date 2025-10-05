@@ -25,7 +25,7 @@ public class TempConverter {
                     double temp1 = sc.nextDouble();
                     System.out.println("\nConversion Results: ");
                     System.out.println("Fahrenheit: " + temp1);
-                    double celsius = (temp1 - 32) * 5 / 9;
+                    double celsius = (temp1 - 32) * 5/9;
                     System.out.println("Celsius: " + celsius);
                     break;
                 }
@@ -35,7 +35,7 @@ public class TempConverter {
                     double temp2 = sc.nextDouble();
                     System.out.println("\nConversion Results: ");
                     System.out.println("Celsius: " + temp2);
-                    double fahrenheit = temp2 * (9 / 5) + 32;
+                    double fahrenheit = temp2 * 9 / 5 + 32;
                     System.out.println("Fahrenheit: " + fahrenheit);
                     break;
                 }
